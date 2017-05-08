@@ -34,6 +34,7 @@ before_script:
     - npm install -g gulp
     - npm install mocha selenium-webdriver@3.0.0-beta-2 saucelabs
 
+    - echo $SAUCE_ACCESS_KEY
     # Rename the branch we're on, so that it's not in the way for the
     # subsequent fetch. It's ok if this fails, it just means we're not on any
     # branch.
